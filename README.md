@@ -5,10 +5,10 @@ The goal is to analyze Airbnb’s listings in NYC using various data visualizati
 
 ## Process
 ### Step 1:
-Leveraged Python to explore and clean the data (e.g. remove duplicates/nulls, observe data types, etc.). Review the data cleaning and exploration process on airbnb.ipynb
+Leveraged Python to explore and clean [Airbnb data](data/airbnb.xlsx) on listings from 2008-2014 (e.g. remove duplicates/nulls, observe data types, etc.). Review the data cleaning and exploration process on [airbnb.ipynb](airbnb.ipynb)
 
 ### Step 2:
-Imported the cleaned dataset into Tableau and explored it using a range of visualizations. The exploration process included:
+Imported the [cleaned dataset](data/airbnb_cleaned.xlsx) into Tableau and explored it using a range of visualizations. The exploration process included:
 * A map to visualize the distinct neighborhoods in NYC. 
   * **Finding**: Identified 5 zip codes that were outside of the state of New York. As a result, we excluded these discrepancies from the data.
 * A heat map to pinpoint the areas with the highest concentration of listings. 
@@ -27,16 +27,21 @@ Constructed visualizations to explore specific inquiries within the dataset aimi
 * Does the number of beds have an impact on the average price per night? **Finding**:
   * Beds doesn’t appear to have a significant impact on average price, as each room type has a similar average number of beds. The most significant factor influencing pricing appears to be the room type and the listing's location.
   * Increased privacy in accommodations consistently command higher listing prices as the average price for renting an entire home or apartment is more than twice the cost of private and shared rooms.
+![image](https://github.com/k-thang/Tableau-Project/assets/133152943/c4b6ea2e-afe2-4d29-918e-34c0328106d8)
 * Is there a relationship between average price and number of reviews? **Finding**: 
   * There doesn't appear to be a definitive relationship between average price and number of reviews. Tableau has organized the data into three prominent clusters, which seem to be grouped according to room type. This aligns with the logical assumption that room types with similar prices are clustered together, even though there isn't a direct correlation with the average number of reviews.
+![image](https://github.com/k-thang/Tableau-Project/assets/133152943/0e414750-64aa-4e4c-ba98-8db44d71a37d)
 * How has the average price per night in each neighborhood changed over time? Include a forecast for the next two years. **Finding**: 
   * With the exception of the Bronx and Staten Island in 2012, the chart indicates that over time the price in each neighborhood haven’t been subject to drastic price fluctuations. The projected 2-year forecast emphasizes the same trend to continue.
   * The trend line for each neighborhood indicates a low R-squared and statistically insignificant p-values. Despite the less-than-ideal statistical results, it's worth noting that the relatively stable average prices and future outlook could be viewed as a positive sign for potential investors.
+![image](https://github.com/k-thang/Tableau-Project/assets/133152943/26c9838e-b686-48ad-9dfd-a8f83d8d887f)
 * How has the number of hosts in each neighborhood changed over time? Include a forecast for the next two years. **Finding**:
   * Over time, Manhattan, Brooklyn, and Queens have experienced consistent growth in the number of new Airbnb hosts, whereas the numbers have remained relatively unchanged in the Bronx and Staten Island. The 2-year projection highlights the expectation of this trend continuing. It's important to highlight that Queens is anticipated to witness remarkable growth of over 45% in the coming year, making it an intriguing prospective neighborhood for potential investors.
+![image](https://github.com/k-thang/Tableau-Project/assets/133152943/c0f7a2f7-91a7-4ae4-9e57-7885f97fa3af)
 * Display the top 20 hosts by number of listings, are there patterns in the neighborhoods, room types and property types? **Finding**:
   * The majority of hosts concentrate their listings in 1-2 neighborhoods and between 1-2 property types. What's intriguing is that even though most of them have entire houses/apartments available, they often choose to list private or shared rooms. These charts also underscore the popularity of neighborhoods like Manhattan, Brooklyn, and Queens among hosts.
   * Recognizing current host preferences can provide valuable insights for investors as it enables them to either replicate successful strategies or identify untapped market opportunities.
+![image](https://github.com/k-thang/Tableau-Project/assets/133152943/7028859f-c37e-4d0c-b939-db5e0da25bb3)
 
 ## Results
 Each visualization was created to uncover trends or patterns aimed at providing potential investors with valuable insights into the Airbnb market in NYC. The key insights were: 
