@@ -41,7 +41,7 @@ Constructed visualizations to explore specific inquiries within the dataset aimi
 * Display the top 20 hosts by number of listings, are there patterns in the neighborhoods, room types and property types? **Finding**:
   * The majority of hosts concentrate their listings in 1-2 neighborhoods and between 1-2 property types. What's intriguing is that even though most of them have entire houses/apartments available, they often choose to list private or shared rooms. These charts also underscore the popularity of neighborhoods like Manhattan, Brooklyn, and Queens among hosts.
   * Recognizing current host preferences can provide valuable insights for investors as it enables them to either replicate successful strategies or identify untapped market opportunities.
-![image](https://github.com/k-thang/Tableau-Project/assets/133152943/7028859f-c37e-4d0c-b939-db5e0da25bb3)
+![image](https://github.com/k-thang/Tableau-Project/assets/133152943/58e60952-664e-4b23-be2b-17d5880d8bb5)
 
 ## Results
 Each visualization was created to uncover trends or patterns aimed at providing potential investors with valuable insights into the Airbnb market in NYC. The key insights were: 
