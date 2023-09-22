@@ -20,7 +20,7 @@ Imported the [cleaned dataset](data/airbnb_cleaned.xlsx) into Tableau and explor
 * A box plot diagram to detect outliers in the average price in each neighborhood.
   * **Finding**: Identified two atypical data points in Brooklyn, priced at $1,500, and Queens, priced at $731. While these prices fell outside the typical range, they were considered plausible and were retained in the dataset. These anomalies suggest potential variations in the local housing market, possibly indicating emerging trends or unique property features in these areas that command higher or lower prices than the average.
     
-Review the exact visualization in the repository's Tableau Workbook or in the Project’s Presentation.
+Review the exact visualization in the repository's [Tableau Workbook](Airbnb-Visualizations.twbx) or in the [Project’s Presentation](TableauPresentationFile-Option2-Airbnb-Thang-Kathryn.pdf).
 
 ### Step 3:
 Constructed visualizations to explore specific inquiries within the dataset aiming to uncover trends that could be valuable for prospective Airbnb investors.
